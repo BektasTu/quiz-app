@@ -18,22 +18,31 @@
                 FIRST CARD
               -->
         <li class="card-list__item">
-          <article class="card">
+          <article class="card" data-js="card">
             <h2 class="card__question">
               In the Kingdom Heart series who provides the english voice for
               Master Eraqus?
             </h2>
-            <button data-js="answerOne" class="card__button-answer" onclick="myFunction()">
+            <button
+              class="card__button-answer"
+              type="button"
+              data-js="answer-button"
+            >
               Show answer
             </button>
-            <p class="card__answer">Mark Hamill</p>
+            <p class="card__answer" data-js="answer">Mark Hamill</p>
             <ul class="card__tag-list">
               <li class="card__tag-list-item">#kingdomheart</li>
               <li class="card__tag-list-item">#mastereraqus</li>
               <li class="card__tag-list-item">#english voices</li>
             </ul>
             <div class="card__button-bookmark">
-              <button data-js="bookmark" class="bookmark" aria-label="bookmark" type="button">
+              <button
+                class="bookmark"
+                aria-label="bookmark"
+                type="button"
+                data-js="bookmark-button"
+              >
                 <svg
                   class="bookmark__icon"
                   xmlns="http://www.w3.org/2000/svg"
@@ -51,15 +60,21 @@
                 SECOND CARD
               -->
         <li class="card-list__item">
-          <article class="card">
+          <article class="card" data-js="card">
             <h2 class="card__question">
               Daniel Radcliffe became a global star in the film industry due to
               his performance in which film franchise?
             </h2>
-            <button class="card__button-answer" type="button">
+            <button
+              class="card__button-answer"
+              type="button"
+              data-js="answer-button"
+            >
               Show answer
             </button>
-            <p class="card__answer card__answer--active">Harry Potter</p>
+            <p class="card__answer card__answer--active" data-js="answer">
+              Harry Potter
+            </p>
             <ul class="card__tag-list">
               <li class="card__tag-list-item">#danielradcliffe</li>
               <li class="card__tag-list-item">#hewhomustnotbenamed</li>
@@ -70,6 +85,7 @@
                 class="bookmark bookmark--active"
                 aria-label="bookmark"
                 type="button"
+                data-js="bookmark-button"
               >
                 <svg
                   class="bookmark__icon"
@@ -88,22 +104,31 @@
                 THIRD CARD
               -->
         <li class="card-list__item">
-          <article class="card">
+          <article class="card" data-js="card">
             <h2 class="card__question">
               Which former US president was nicknamed &quot;Teddy&quot; after he
               refused to shoot a defenseless black bear?
             </h2>
-            <button class="card__button-answer" type="button">
+            <button
+              class="card__button-answer"
+              type="button"
+              data-js="answer-button"
+            >
               Show answer
             </button>
-            <p class="card__answer">Theodore Roosevelt</p>
+            <p class="card__answer" data-js="answer">Theodore Roosevelt</p>
             <ul class="card__tag-list">
               <li class="card__tag-list-item">#usa</li>
               <li class="card__tag-list-item">#president</li>
               <li class="card__tag-list-item">#teddybear</li>
             </ul>
             <div class="card__button-bookmark">
-              <button class="bookmark" aria-label="bookmark" type="button">
+              <button
+                class="bookmark"
+                aria-label="bookmark"
+                type="button"
+                data-js="bookmark-button"
+              >
                 <svg
                   class="bookmark__icon"
                   xmlns="http://www.w3.org/2000/svg"
@@ -125,7 +150,7 @@
         <li class="navigation__list-item navigation__list-item--active">
           <a
             class="navigation__link"
-            href="/index.html"
+            href="./index.html"
             aria-label="go to home page"
           >
             <svg
@@ -143,7 +168,7 @@
         <li class="navigation__list-item">
           <a
             class="navigation__link"
-            href="/bookmarks.html"
+            href="./bookmarks.html"
             aria-label="go to bookmarks page"
           >
             <svg
@@ -161,7 +186,21 @@
         <li class="navigation__list-item">
           <a
             class="navigation__link"
-            href="/profile.html"
+            href="./form.html"
+            aria-label="go to form page"
+          >
+            <svg style="width: 24px; height: 24px;" viewbox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M13,7H11V11H7V13H11V17H13V13H17V11H13V7Z"
+              />
+            </svg>
+          </a>
+        </li>
+        <li class="navigation__list-item">
+          <a
+            class="navigation__link"
+            href="./profile.html"
             aria-label="go to profile page"
           >
             <svg
