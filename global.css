@@ -1,9 +1,9 @@
 :root {
-  --primary: #ffffff;
-  --secondary: #ff4a11;
-  --secondary-light: #fddcd2;
-  --white: #ffffff;
-  --black: #252629;
+  --primary: #4f4fe2;
+  --secondary: #5d60f3;
+  --secondary-light: #c1df02;
+  --white: #fbf7f7;
+  --black: #000000;
   --ff-primary: sans-serif;
   --ff-serif: serif;
   --fs-200: 0.6rem;
